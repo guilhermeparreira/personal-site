@@ -52,9 +52,13 @@ I also make `Ruff` as a default extension:
 
 ```
 
+Last but not least, you can also install `ruff` and your environment and implement it on your CI/CD routines. But it will not be covered in here. Installing the extension and using the `.vscode/settings.json` guarantees that the sugestions will be made on the fly. But it depends on `VsCode`.
+
 ## Bonus (Caveat)
 
-One thing that I struggled to start using a tool like this in the beggining was the `line-length` of the project. I always got the warning `E501: line-too-long` if the number of characters in a line was longer that 79 characters, which it is the recommendation in PEP 8. With this limit you can open multiple files side by side, and can also help you to see the `git diff`.
+One thing that I struggled to start using a tool like this was because I used to write code in a single long line. I always received the warning `E501: line-too-long` from my `black`. It happens when the number of characters in a line was longer that 79 characters, which is the recommendation in PEP 8. After applying a tool like `ruff` my code changed drastically (as it would force to break lines), and it was uncomfortable in the beggining. So, I started to relax the parameter of the `line-length` a little bit (from 79 to for example, 150 characters), and started to analyse the impact of change. Then I realized that the impact on my previous code was not large at all. 
+
+Leaving the limit as the default, PEP 8 argues that you can open multiple files side by side, being also easier to see the `git diff` changes.
 
 Anyway, if you think that this limit is small, you can relax it a little bit globally, doing it by:
 
