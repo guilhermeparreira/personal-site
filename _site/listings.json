@@ -1,33 +1,9 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/ruff/index.html"
-    ]
-  },
-  {
-    "listing": "/about.html",
-    "items": [
-      "/posts/ruff/index.html"
-    ]
-  },
-  {
-    "listing": "/posts/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/ruff.html",
-    "items": []
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/welcome/index.html",
       "/posts/ruff/index.html"
     ]
-  },
-  {
-    "listing": "/posts/ruff/index.html",
-    "items": []
   }
 ]
