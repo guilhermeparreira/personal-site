@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 website:
   title: "personal-site"
   page-navigation: true
@@ -20,6 +23,7 @@ website:
         href: https://www.linkedin.com/in/guilherme-parreira/
       - icon: stackoverflow
         href: https://pt.stackoverflow.com/users/33947/guilherme-parreira
+  site-url: https://guilhermeparreira.github.io/personal-site/
       
 format:
   html:
